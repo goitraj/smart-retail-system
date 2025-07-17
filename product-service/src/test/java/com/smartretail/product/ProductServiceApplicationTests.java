@@ -1,10 +1,10 @@
-package com.smartretail.common;
+package com.smartretail.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CommonLibraryApplicationTests {
+class ProductServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
