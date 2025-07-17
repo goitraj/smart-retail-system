@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: common-library
+
+  kafka:
+    bootstrap-servers: dummy:9092  # Just a placeholder, not a real server
+    producer:
+      enabled: false
+    consumer:
+      enabled: false
+    admin:
+      fail-fast: false  # Prevents startup failure
+    listener:
+      missing-topics-fatal: false  # Prevent exception if topics don't exist
+
