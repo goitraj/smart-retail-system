@@ -6,7 +6,7 @@ spring:
     gateway:
       server:
         webflux:
-          globalcors:
+          global cors:
             cors-configurations:
               '[/**]':
                 allowed-origins: "*"

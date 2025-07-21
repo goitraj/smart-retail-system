@@ -12,8 +12,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductService {
 
-    private final ProductRepository repository;
-    private final ProductEventProducer eventProducer;
+    private  ProductRepository repository;
+    private  ProductEventProducer eventProducer;
 
     public Product createProduct(Product product) {
         Product saved = repository.save(product);
